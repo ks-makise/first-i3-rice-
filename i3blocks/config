@@ -1,0 +1,30 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=15
+
+
+[time]
+command=date '+%Y-%m-%d %H:%M'
+interval=1
+min_width=1093
+align=center
+
+[battery]
+command=acpi -b | grep -o '[0-9]*%'
+interval=1 
+
+
+[logout]
+full_text=justmonika
+color=#FF7518
+command=i3-msg exit  
+
+
