@@ -71,7 +71,7 @@ default_floating_border pixel 2
 bindsym $mod+e exec dolphin
 
 #start picom
-exec_alwaysRR --no-startup-id picom --config ~/.config/picom/picom.conf -b
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf -b
 
 #start feh
 exec --no-startup-id feh --bg-fill /home/user/Pictures/Wallpapers/wwsd.jpg
