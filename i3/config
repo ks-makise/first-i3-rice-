@@ -2,8 +2,8 @@
 
 
 
-bindsym $mod+fn6 exec xbacklight +10
-bindsym $mod+fn5 exec xbacklight -10
+bindsym $mod+F6 exec xbacklight +10
+bindsym $mod+F5 exec xbacklight -10
 
 #screenshot
 bindsym $mod+Shift+s exec spectacle
